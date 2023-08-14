@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
 
 body {
-    background: url(/src/images/bg-desktop.svg) no-repeat center, var(--bg-color);
+    background: url(../images/bg-desktop.svg) no-repeat center, var(--bg-color);
     background-position: -50px;
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;

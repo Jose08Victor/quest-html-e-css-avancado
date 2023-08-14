@@ -1,0 +1,67 @@
+@media (max-width:1126px) {
+    body {
+        background: url(/src/images/bg-mobile.svg) no-repeat top, var(--bg-color);
+        background-size: cover;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    .container .logo {
+        width: 256px;
+        margin-bottom: 100px;
+    }
+
+    .container .parte-principal {
+        margin-bottom: 80px;
+    }
+
+    .container .parte-principal .maquete {
+        width: 100%;
+    }
+
+    .container .parte-principal .visao-geral {
+        width: 600px;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .container .parte-principal .visao-geral .titulo {
+        font-size: 47.6px;
+        margin-bottom: 25px;
+    }
+
+    .container .parte-principal .visao-geral .descricao {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .container .parte-principal .visao-geral .registrar {
+        font-size: 24px;
+        padding: 20px 100px;
+        border-radius: 40px;
+    }
+
+    .container .rede-social {
+        align-self: center;
+        gap: 40px;
+    }
+
+    .container .rede-social .fa-brands {
+        font-size: 25px;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+    }
+
+    .container .rede-social .fa-brands.fa-instagram {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 100%;
+    }
+}

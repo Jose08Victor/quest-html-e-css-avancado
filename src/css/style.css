@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
 
 body {
-    background: url(../images/bg-desktop.svg) no-repeat center, var(--bg-color);
+    background: url(../images/bg-desktop.svg) no-repeat center;
     background-position: -50px;
+    background-color: var(--bg-color);
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     display: flex;

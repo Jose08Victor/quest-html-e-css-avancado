@@ -1,7 +1,8 @@
 @media (max-width:1126px) {
     body {
-        background: url(../images/bg-mobile.svg) no-repeat top, var(--bg-color);
+        background: url(../images/bg-mobile.svg) no-repeat top;
         background-size: cover;
+        background-color: var(--bg-color);
     }
 
     .container {
